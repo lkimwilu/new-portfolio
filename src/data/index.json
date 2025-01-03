@@ -4,25 +4,25 @@
       "id": "1",
       "src": "./img/product-chain-1.png",
       "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "I am proficient in front-end development with technologies like JavaScript, React, and Flutter."
     },
     {
       "id": "2",
       "src": "./img/tag-1.png",
       "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "I have experience in back-end development using Python Django and other technologies."
     },
     {
       "id": "3",
       "src": "./img/feather-pen-2.png",
       "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "I create intuitive and user-friendly designs, focusing on both user interface and experience."
     },
     {
       "id": "4",
       "src": "./img/feather-pen-1.png",
       "title": "Webflow Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "I develop responsive websites using Webflow to deliver visually appealing results."
     }
   ],
   "portfolio": [
@@ -30,21 +30,21 @@
       "id": "1",
       "src": "./img/placeholder-image.png",
       "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "A project that showcases my front-end development skills using React and other tools.",
       "link": "View In Github"
     },
     {
       "id": "2",
       "src": "./img/placeholder-image-1.png",
       "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "A dashboard app I built with React, featuring real-time data display and user interactions.",
       "link": "View In Github"
     },
     {
       "id": "3",
       "src": "./img/placeholder-image-2.png",
       "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "A property rental app developed using React and Firebase for authentication and data handling.",
       "link": "View In Github"
     }
   ],
@@ -53,7 +53,7 @@
       "id": "1",
       "count": "5",
       "src": "./img/avatar-image.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "Lydia is an excellent software developer who helped us bring our vision to life.",
       "author_name": "Dianne Russel",
       "author_designation": "Starbucks"
     },
@@ -61,7 +61,7 @@
       "id": "2",
       "count": "5",
       "src": "./img/avatar-image-1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "Lydia's technical skills and attention to detail made a significant impact on our project.",
       "author_name": "Kristin Watson",
       "author_designation": "Louis Vuitton"
     },
@@ -69,7 +69,7 @@
       "id": "3",
       "count": "5",
       "src": "./img/avatar-image-2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "Working with Lydia was a great experience. She is highly professional and skilled.",
       "author_name": "Kathryn Murphy",
       "author_designation": "McDonald's"
     }

@@ -5,7 +5,7 @@ export default function ContactMe() {
         <p className="sub--title">Get In Touch</p>
         <h2>Contact Me</h2>
         <p className="text-lg">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, odit.
+          Feel free to reach out for collaborations, inquiries, or just to say hello. I'd love to connect with you!
         </p>
       </div>
       <form className="contact--form--container">
@@ -41,9 +41,9 @@ export default function ContactMe() {
             />
           </label>
           <label htmlFor="phone-number" className="contact--label">
-            <span className="text-md">phone-number</span>
+            <span className="text-md">Phone Number</span>
             <input
-              type="number"
+              type="tel"
               className="contact--input text-md"
               name="phone-number"
               id="phone-number"
@@ -51,13 +51,13 @@ export default function ContactMe() {
             />
           </label>
         </div>
-        <label htmlFor="choode-topic" className="contact--label">
-          <span className="text-md">Choose a topic</span>
-          <select id="choose-topic" className="contact--input text-md">
-            <option>Select One...</option>
-            <option>Item 1</option>
-            <option>Item 2</option>
-            <option>Item 3</option>
+        <label htmlFor="choose-topic" className="contact--label">
+          <span className="text-md">Choose a Topic</span>
+          <select id="choose-topic" className="contact--input text-md" required>
+            <option value="">Select One...</option>
+            <option value="collaboration">Collaboration</option>
+            <option value="inquiry">Inquiry</option>
+            <option value="feedback">Feedback</option>
           </select>
         </label>
         <label htmlFor="message" className="contact--label">
@@ -67,14 +67,17 @@ export default function ContactMe() {
             id="message"
             rows="8"
             placeholder="Type your message..."
+            required
           />
         </label>
-        <label htmlFor="checkboc" className="checkbox--label">
+        <label htmlFor="checkbox" className="checkbox--label">
           <input type="checkbox" required name="checkbox" id="checkbox" />
           <span className="text-sm">I accept the terms</span>
         </label>
         <div>
-          <button className="btn btn-primary contact--form--btn">Submit</button>
+          <button type="submit" className="btn btn-primary contact--form--btn">
+            Submit
+          </button>
         </div>
       </form>
     </section>
